@@ -1,0 +1,125 @@
+% This file was created by tikzplotlib v0.9.0.
+\begin{tikzpicture}
+
+\begin{axis}[
+height=\figureheight,
+legend cell align={left},
+legend style={fill opacity=0.8, draw opacity=1, text opacity=1, at={(0.03,0.03)}, anchor=south west, draw=white!80!black},
+minor xtick={},
+minor ytick={},
+tick align=outside,
+tick pos=left,
+title={CartPole Training Rewards},
+width=\figurewidth,
+x grid style={white!69.0196078431373!black},
+xlabel={Time Steps (in thousands)},
+xmajorgrids,
+xmin=0, xmax=20,
+xtick style={color=black},
+xtick={0,2,4,6,8,10,12,14,16,18,20},
+y grid style={white!69.0196078431373!black},
+ylabel={Avg. Reward},
+ymajorgrids,
+ymin=160, ymax=205,
+ytick style={color=black},
+ytick={160,165,170,175,180,185,190,195,200,205}
+]
+\addplot [line width=1.5pt, blue]
+table {%
+0 200
+1 200
+2 200
+3 200
+4 200
+5 200
+6 200
+7 200
+8 200
+9 200
+10 195.725489298503
+11 200
+12 200
+13 200
+14 200
+15 200
+16 199.645833333333
+17 200
+18 200
+19 200
+};
+\addlegendentry{Default PNN}
+\addplot [line width=1.5pt, blue, dashed]
+table {%
+0 200
+1 194.901962280273
+2 198.145833333333
+3 200
+4 199.791666666667
+5 200
+6 200
+7 199.041666666667
+8 199.645833333333
+9 200
+10 200
+11 200
+12 200
+13 200
+14 200
+15 200
+16 200
+17 200
+18 200
+19 200
+};
+\addlegendentry{Default DNN}
+\addplot [line width=1.5pt, green!50!black]
+table {%
+0 200
+1 200
+2 200
+3 200
+4 200
+5 200
+6 200
+7 200
+8 200
+9 200
+10 200
+11 200
+12 200
+13 200
+14 200
+15 200
+16 200
+17 200
+18 200
+19 200
+};
+\addlegendentry{Random PNN}
+\addplot [line width=1.5pt, green!50!black, dashed]
+table {%
+0 200
+1 181.132934570312
+2 198.333333333333
+3 192.240743001302
+4 200
+5 200
+6 199.458333333333
+7 199.458333333333
+8 200
+9 198.916666666667
+10 198.666666666667
+11 200
+12 199.958333333333
+13 199.75
+14 197.854166666667
+15 200
+16 200
+17 200
+18 200
+19 200
+};
+\addlegendentry{Random DNN}
+\end{axis}
+
+\end{tikzpicture}
