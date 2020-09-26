@@ -6,7 +6,7 @@ This Code is based on the following paper: https://arxiv.org/abs/1805.12114
 
 Clone the code into your local system:
 ```
-https://github.com/ByMic/PETS.git
+git clone https://github.com/ByMic/PETS.git
 ```
 
 Optional: create a virtual environment
