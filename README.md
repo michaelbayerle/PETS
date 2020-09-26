@@ -4,7 +4,7 @@
 
 Clone the code into your local system:
 ```
-git clone https://github.com/panigsan/deep-learning-project.git
+https://github.com/ByMic/PETS.git
 ```
 
 Optional: create a virtual environment
