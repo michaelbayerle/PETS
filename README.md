@@ -1,5 +1,7 @@
 # Assessing Generalization using Probabilistic Ensembles for Deep Reinforcement Learning
 
+This Code is based on the following paper: https://arxiv.org/abs/1805.12114
+
 ## Installation
 
 Clone the code into your local system:
