@@ -19,7 +19,7 @@ cd rl-generalization
 pip install -e .
 ```
 
-Go back to the root level of the deep-learning-project, and install requirements:
+Go back to the root level of the PETS project, and install requirements:
 ```
 cd ..
 pip install -r requirements.txt
